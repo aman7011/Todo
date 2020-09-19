@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    background: linear-gradient(#6546f3,#ff76f8);
+}
+
+#area{
+    width:70%;
+    margin-left: 150px;
+display: inline-block;
+}
+/* Desccription Part */
+#heading{
+    margin-left:35%;
+    font-size: 50px;
+    color: rgb(12, 7, 7);
+}
+#descp{
+    margin-bottom:10px;
+    font-size: 20px;
+}
+#text{
+    width:80%;
+    height:50px;
+    border:1px solid pink;
+    border-radius:10px;
+    padding-left:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Category Part */
+#categ{
+    margin-left:1%;
+}
+.field{
+    width:100%;
+    display:flex;
+}
+.category{
+    width:50%;
+    margin-bottom:2px;
+}
+#categories{
+    cursor:pointer;
+}
+
+.category select{
+    width:50%;
+    height:35px;
+    border:1px solid orangered;
+    border-radius:10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+/* date */
+#dates{
+    width:50%;
+    cursor:pointer;
+    height:35px;
+    padding:5px;
+    border:1px solid saddlebrown;
+    border-radius:10px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+.due-date{
+    width:50%;
+    margin-bottom:2px;
+}
+/* button */
+#add{
+   background-color: rgb(7, 143, 7);
+   color:white;
+   margin-left: 180px;
+}
+
+/* Tasks Card */
+.tasks{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.del{
+    font-weight:bold;
+}
+.card{
+    margin:10px 10px 10px 5px;
+    /* border-radius: 50%; */
+    border:1px  solid saddlebrown;
+    width:30%;
+    transition: 1s ease;
+    box-shadow: 5px 5px rgba(228, 118, 67, 0.4),
+    10px 10px rgba(2, 245, 225, 0.3),
+    15px 15px rgba(0, 165, 151, 0.2),
+    20px 20px rgba(4, 77, 70, 0.1),
+    25px 25px rgba(2, 39, 36, 0.05);
+}
+.card-header{
+    background:linear-gradient(#a4e666, #a8e645);
+}
+.card-title{
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+.card-body{
+    background:linear-gradient(#f588dd,#a67ff0,#333333);
+}
+.card-text{
+    font-size:1.2rem;
+}
+.card-footer{
+    font-weight:bold;
+    margin-left:10%;
+}
+.done{
+    background-color: lightslategrey;
+    color: lightyellow;
+}
+.dele{
+    background-color: firebrick;
+    color:white;
+}
+/* some common classes */
+.button{
+    width:140px;
+    height:50px;
+    border-radius: 5px;
+    letter-spacing:0.8px ;
+}
+.bold{
+    font-weight:bold;
+}
+.mrg_wdh{
+    width:95%;
+    margin:auto;
+}
